@@ -1,4 +1,3 @@
-@use 'sass:math';
 @import "variables";
 
 @keyframes bs-notify-fadeOut {
@@ -291,7 +290,8 @@ select.selectpicker {
 
       span {
         position: relative;
-        top: calc(math.div((math.div(-1em, 1.5) + 1ex), 2));
+
+        top: calc(((-1em * 0.6666666667) + 1ex) * 0.5);
         pointer-events: none;
 
         @at-root .bs3#{&} {

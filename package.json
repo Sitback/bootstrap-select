@@ -39,12 +39,14 @@
     "grunt-contrib-csslint": "^2.0.0",
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-sass": "^2.0.0",
     "grunt-contrib-uglify": "^4.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-eslint": "^22.0.0",
     "grunt-postcss": "^0.9.0",
     "grunt-version": "^2.0.0",
-    "load-grunt-tasks": "^5.1.0"
+    "load-grunt-tasks": "^5.1.0",
+    "sass": "^1.43.4"
   },
   "browserslist": [
     "Android 2.3",
@@ -64,5 +66,8 @@
     "dropdown",
     "select",
     "replacement"
-  ]
+  ],
+  "scripts": {
+    "build": "grunt dist"
+  }
 }
