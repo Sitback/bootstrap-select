@@ -598,7 +598,7 @@
   }
 
   // eslint-disable-next-line no-undef
-  var Dropdown = window.Dropdown || bootstrap.Dropdown;
+  var Dropdown = window.Dropdown || {};
 
   function getVersion () {
     var version;

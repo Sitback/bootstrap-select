@@ -1,5 +1,5 @@
 /*!
- * Bootstrap-select v1.14.1 ()
+ * Bootstrap-select v1.14.2 ()
  *
  * Copyright 2012-2021 SnapAppointments, LLC
  * Licensed under MIT (https://github.com/snapappointments/bootstrap-select/blob/master/LICENSE)
@@ -622,7 +622,7 @@
   }
 
   // eslint-disable-next-line no-undef
-  var Dropdown = window.Dropdown || bootstrap.Dropdown;
+  var Dropdown = window.Dropdown || {};
 
   function getVersion () {
     var version;

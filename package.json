@@ -3,7 +3,7 @@
   "title": "bootstrap-select",
   "main": "dist/js/bootstrap-select.js",
   "description": "The jQuery plugin that brings select elements into the 21st century with intuitive multiselection, searching, and much more. Now with Bootstrap 4 support.",
-  "version": "1.14.1",
+  "version": "1.14.2",
   "author": {
     "name": "Sitback Solutions",
     "url": "https://sitback.com.au"
@@ -69,5 +69,8 @@
   ],
   "scripts": {
     "build": "grunt dist"
+  },
+  "dependencies": {
+    "bootstrap-select": "github:Sitback/bootstrap-select"
   }
 }
